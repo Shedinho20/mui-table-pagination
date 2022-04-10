@@ -1,0 +1,54 @@
+:root {
+  --color-white: #ffffff;
+  --color-main-blue: #001233;
+  --color-sec-blue: #dbebef;
+  --color-black: #000;
+}
+
+html,
+body {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-sec-blue);
+  width: 100vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition: 0.1s ease-in-out; */
+}
+
+@media screen and (max-width: 900px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html,
+  body {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html,
+  body {
+    font-size: 9px;
+  }
+}
